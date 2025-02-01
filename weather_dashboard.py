@@ -8,7 +8,7 @@ import numpy as np
 import time
 
 # OpenWeatherMap API Key
-API_KEY = "0b29aaa43b791d5ae4bc00380a545acf"
+API_KEY = ""
 
 # SQLite database setup
 conn = sqlite3.connect("weather_data.db")

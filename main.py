@@ -6,7 +6,7 @@ import time
 from datetime import datetime
 
 # Your OpenWeatherMap API key
-API_KEY = "c680774fcf52fc51add4e5284eaefd2c"
+API_KEY = ""
 city = "Hyderabad,IN"
 url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
 
