@@ -1,0 +1,34 @@
+# Ignore the virtual environment folder
+myenv/
+
+# Ignore environment-specific files
+.env
+
+# Ignore log files
+weather_pipeline.log
+
+# Ignore any local database files (if applicable)
+weather_data_db/
+
+# Ignore IDE-specific files (if you use an IDE like PyCharm, VSCode, etc.)
+.idea/
+.vscode/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local development files (if any)
+*.local
+
+# Ignore any other temporary or generated files
+*.tmp
+*.log
+*.swp
+*.swo
+
+# Ignore data folder (if it contains large or sensitive data)
+data/
+visuals/
